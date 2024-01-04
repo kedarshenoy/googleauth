@@ -95,6 +95,7 @@ After generating Google Auth and Secret Key, and obtaining email credentials wit
 To download the project dependencies, run the following command in the project directory:
 
 ```bash
+cd server
 npm install
 ```
 
