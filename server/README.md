@@ -18,7 +18,7 @@ Create a `.env` file in the backend directory with the following content:
 DATABASE=mongodb://your-mongodb-connection-link
 EMAIL=your-email@gmail.com
 APP_PASSWORD=your-app-password
-
+```
 # Creating Google OAuth2 Client ID and Secret
 
 This guide provides step-by-step instructions on how to create a Google OAuth2 client ID and secret for authenticating with Google APIs. This is particularly useful for applications that need to access services such as Gmail.
@@ -86,6 +86,9 @@ Under "Signing in to Google," find the "App passwords" section.
 Generate a new App Password for your application. Choose "Mail" and the device/app you're using.
 
 Use this App Password in your Node.js application instead of your regular Gmail password.
+
+
+After generating Google Auth and Secret Key, and obtaining email credentials with an app password, paste the generated values into the designated placeholders in the server's configuration file.
 
 ## Downloading Dependencies
 
