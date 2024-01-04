@@ -96,7 +96,7 @@ To download the project dependencies, run the following command in the project d
 
 ```bash
 npm install
-
+```
 
 Project Dependencies
 
