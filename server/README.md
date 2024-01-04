@@ -98,13 +98,20 @@ To download the project dependencies, run the following command in the project d
 npm install
 ```
 
-Project Dependencies
+##Project Dependencies
 
 1. Nodemailer
 Nodemailer is a module for Node.js applications that allows easy email sending. It is used in this project for handling email functionality.
 
 2. Passport Google Auth
 Passport-Google-OAuth is a Passport strategy for authenticating with Google using the OAuth 2.0 API. It is commonly used for handling user authentication via Google accounts.
+
+##To start the project in the server directory, run the following command:
+```
+cd server
+npm start
+```
+
 
 # Project Dependencies
 
