@@ -14,7 +14,7 @@ Before running the project locally, make sure you have the following software in
 1. **Clone the repository:**
 
     ```bash
-    git clone (repo addr)
+    git clone https://github.com/kedarshenoy/googleauth
     ```
 
 2. **Navigate to the project directory:**
